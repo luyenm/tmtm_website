@@ -6,13 +6,6 @@ html {
     overflow: hidden;
 }
 
-.background-image {
-    position: fixed;
-    z-index: -5;
-    filter: blur(5px);
-    height: 120%;
-    background-size:cover;
-}
 
 .App-header {
     min-height: 100vh;

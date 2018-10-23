@@ -4,11 +4,13 @@ import './style/index.css';
 import MainComponent from './components/MainComponent';
 import * as serviceWorker from './serviceWorker';
 import Header from './components/Header'
+import EyeCatch from './components/Eyecatch'
 
 ReactDOM.render(
     <div>
-        <Header/>
         <MainComponent />
+        <Header/>
+        <EyeCatch/>
     </div>,
     document.getElementById('root'));
 
