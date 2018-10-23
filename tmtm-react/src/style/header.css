@@ -1,0 +1,21 @@
+.header {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline;
+    padding: 1vmin 4vmin;
+    user-select: none;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.navbar li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-decoration: underline;
+}

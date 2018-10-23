@@ -20,9 +20,6 @@ class MainComponent extends Component {
         <header className="App-header">
             <img src={Backdrop} className={'background-image'}>
             </img>
-              <p>
-                asdasdsad
-              </p>
         </header>
       </div>
     );

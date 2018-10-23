@@ -5,7 +5,12 @@ import MainComponent from './components/MainComponent';
 import * as serviceWorker from './serviceWorker';
 import Header from './components/Header'
 
-ReactDOM.render(<MainComponent />, document.getElementById('root'));
+ReactDOM.render(
+    <div>
+        <Header/>
+        <MainComponent />
+    </div>,
+    document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
